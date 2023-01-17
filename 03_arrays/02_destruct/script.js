@@ -3,7 +3,7 @@ let [first, , , , fifth] = [
   "Boston",
   "Los Angeles",
   "Seattle",
-  "Portland"
+  "Portland",
 ];
 
 console.log(first);
