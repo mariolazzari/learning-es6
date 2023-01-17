@@ -1,7 +1,5 @@
-const delay = (seconds) =>
-  new Promise((resolves) =>
-    setTimeout(resolves, seconds * 1000)
-  );
+const delay = seconds =>
+  new Promise(resolves => setTimeout(resolves, seconds * 1000));
 
 const countToFive = async () => {
   console.log("zero seconds");
