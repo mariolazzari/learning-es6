@@ -3,11 +3,9 @@ function add(x = 5, y = 6) {
 }
 
 add(1, 2);
+add();
 
-function haveFun(
-  activityName = "hiking",
-  time = 3
-) {
+function haveFun(activityName = "hiking", time = 3) {
   console.log(`Today I will go ${activityName}
     for ${time} hours.`);
 }

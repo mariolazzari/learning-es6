@@ -13,7 +13,7 @@ let cat = {
   },
   snore(times) {
     console.log("ZzZzZ".repeat(times));
-  }
+  },
 };
 
 cat.meow(3);
