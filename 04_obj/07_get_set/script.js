@@ -3,9 +3,11 @@ class Hike {
     this.distance = distance;
     this.pace = pace;
   }
+
   get lengthInHours() {
     return `${this.calcLength()} hours`;
   }
+
   calcLength() {
     return this.distance / this.pace;
   }

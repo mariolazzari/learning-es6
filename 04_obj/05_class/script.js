@@ -5,7 +5,7 @@ class Vehicle {
   }
   describeYourself() {
     console.log(
-      `I am a ${this.description} 
+      `I am a ${this.description}
         with ${this.wheels} wheels.`
     );
   }

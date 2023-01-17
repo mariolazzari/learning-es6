@@ -5,7 +5,7 @@ function skier(name, sound) {
     powderYell: function () {
       let yell = this.sound.toUpperCase();
       console.log(`${yell}! ${yell}!`);
-    }
+    },
   };
 }
 

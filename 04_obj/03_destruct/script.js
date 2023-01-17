@@ -2,7 +2,7 @@ const vacation = {
   destination: "Chile",
   travelers: 2,
   activity: "skiing",
-  cost: "so much"
+  cost: "so much",
 };
 
 function marketing({ destination, activity }) {
@@ -15,13 +15,7 @@ const { title, price } = {
   title: "Reuben",
   price: 7,
   description: "A classic",
-  ingredients: [
-    "bread",
-    "corned beef",
-    "dressing",
-    "sauerkraut",
-    "cheese"
-  ]
+  ingredients: ["bread", "corned beef", "dressing", "sauerkraut", "cheese"],
 };
 
 console.log(title);
